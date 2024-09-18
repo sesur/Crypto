@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D1AA2CE2C71581A009DA250 /* CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1AA2CD2C71581A009DA250 /* CryptoApp.swift */; };
-		7D1AA2D02C71581A009DA250 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1AA2CF2C71581A009DA250 /* ContentView.swift */; };
+		7D1AA2CE2C71581A009DA250 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1AA2CD2C71581A009DA250 /* MainApp.swift */; };
+		7D1AA2D02C71581A009DA250 /* CriptoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1AA2CF2C71581A009DA250 /* CriptoListView.swift */; };
 		7D1AA2D22C71581F009DA250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1AA2D12C71581F009DA250 /* Assets.xcassets */; };
 		7D1AA2D52C71581F009DA250 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1AA2D42C71581F009DA250 /* Preview Assets.xcassets */; };
+		7D7936BE2C74A8B300CFB241 /* CoinRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7936BD2C74A8B300CFB241 /* CoinRowViewModel.swift */; };
+		7D7936C12C74A95500CFB241 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7936C02C74A95500CFB241 /* CoinRowView.swift */; };
+		7D8CBB842C73368A002B5732 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7D8CBB832C73368A002B5732 /* RealmSwift */; };
+		7D8CBB862C733BA7002B5732 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7D8CBB852C733BA7002B5732 /* RealmSwift */; };
+		7D8CBB882C733C18002B5732 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7D8CBB872C733C18002B5732 /* RealmSwift */; };
+		7D8FF2F52C71C30900DD621F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7D8FF2F42C71C30900DD621F /* RealmSwift */; };
+		7D8FF2F82C71C72700DD621F /* CryptoAPI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8FF2F72C71C72600DD621F /* CryptoAPI.xcframework */; };
+		7D8FF2FB2C71D1C300DD621F /* CryptoAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FF2FA2C71D1C300DD621F /* CryptoAPIService.swift */; };
+		7D8FF2FE2C71D22000DD621F /* RealmCoinRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FF2FD2C71D22000DD621F /* RealmCoinRepository.swift */; };
+		7D8FF3012C71D33F00DD621F /* CoinUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FF3002C71D33F00DD621F /* CoinUseCase.swift */; };
+		7D8FF3052C71D39400DD621F /* CoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FF3042C71D39400DD621F /* CoinViewModel.swift */; };
+		7D8FF3082C71D5A800DD621F /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FF3072C71D5A800DD621F /* Coin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D1AA2CA2C71581A009DA250 /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D1AA2CD2C71581A009DA250 /* CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoApp.swift; sourceTree = "<group>"; };
-		7D1AA2CF2C71581A009DA250 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D1AA2CD2C71581A009DA250 /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
+		7D1AA2CF2C71581A009DA250 /* CriptoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptoListView.swift; sourceTree = "<group>"; };
 		7D1AA2D12C71581F009DA250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D1AA2D42C71581F009DA250 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D7936BD2C74A8B300CFB241 /* CoinRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowViewModel.swift; sourceTree = "<group>"; };
+		7D7936C02C74A95500CFB241 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		7D8FF2F72C71C72600DD621F /* CryptoAPI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CryptoAPI.xcframework; sourceTree = "<group>"; };
+		7D8FF2FA2C71D1C300DD621F /* CryptoAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAPIService.swift; sourceTree = "<group>"; };
+		7D8FF2FD2C71D22000DD621F /* RealmCoinRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmCoinRepository.swift; sourceTree = "<group>"; };
+		7D8FF3002C71D33F00DD621F /* CoinUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinUseCase.swift; sourceTree = "<group>"; };
+		7D8FF3042C71D39400DD621F /* CoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewModel.swift; sourceTree = "<group>"; };
+		7D8FF3072C71D5A800DD621F /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +46,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D8CBB862C733BA7002B5732 /* RealmSwift in Frameworks */,
+				7D8CBB842C73368A002B5732 /* RealmSwift in Frameworks */,
+				7D8FF2F52C71C30900DD621F /* RealmSwift in Frameworks */,
+				7D8CBB882C733C18002B5732 /* RealmSwift in Frameworks */,
+				7D8FF2F82C71C72700DD621F /* CryptoAPI.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				7D1AA2CC2C71581A009DA250 /* Crypto */,
+				7D8FF2F62C71C71100DD621F /* Frameworks */,
 				7D1AA2CB2C71581A009DA250 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,8 +77,13 @@
 		7D1AA2CC2C71581A009DA250 /* Crypto */ = {
 			isa = PBXGroup;
 			children = (
-				7D1AA2CD2C71581A009DA250 /* CryptoApp.swift */,
-				7D1AA2CF2C71581A009DA250 /* ContentView.swift */,
+				7D1AA2CD2C71581A009DA250 /* MainApp.swift */,
+				7D8FF3062C71D59600DD621F /* Model */,
+				7D8FF2FC2C71D20500DD621F /* Repository */,
+				7D8FF2F92C71D1A700DD621F /* Service */,
+				7D8FF2FF2C71D26E00DD621F /* UseCases */,
+				7D8FF3022C71D37000DD621F /* ViewModel */,
+				7D7936BF2C74A93200CFB241 /* UI */,
 				7D1AA2D12C71581F009DA250 /* Assets.xcassets */,
 				7D1AA2D32C71581F009DA250 /* Preview Content */,
 			);
@@ -65,6 +96,64 @@
 				7D1AA2D42C71581F009DA250 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D7936BF2C74A93200CFB241 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7D1AA2CF2C71581A009DA250 /* CriptoListView.swift */,
+				7D7936C02C74A95500CFB241 /* CoinRowView.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		7D8FF2F62C71C71100DD621F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D8FF2F72C71C72600DD621F /* CryptoAPI.xcframework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D8FF2F92C71D1A700DD621F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7D8FF2FA2C71D1C300DD621F /* CryptoAPIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7D8FF2FC2C71D20500DD621F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				7D8FF2FD2C71D22000DD621F /* RealmCoinRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		7D8FF2FF2C71D26E00DD621F /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				7D8FF3002C71D33F00DD621F /* CoinUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		7D8FF3022C71D37000DD621F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7D8FF3042C71D39400DD621F /* CoinViewModel.swift */,
+				7D7936BD2C74A8B300CFB241 /* CoinRowViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7D8FF3062C71D59600DD621F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D8FF3072C71D5A800DD621F /* Coin.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +172,12 @@
 			dependencies = (
 			);
 			name = Crypto;
+			packageProductDependencies = (
+				7D8FF2F42C71C30900DD621F /* RealmSwift */,
+				7D8CBB832C73368A002B5732 /* RealmSwift */,
+				7D8CBB852C733BA7002B5732 /* RealmSwift */,
+				7D8CBB872C733C18002B5732 /* RealmSwift */,
+			);
 			productName = Crypto;
 			productReference = 7D1AA2CA2C71581A009DA250 /* Crypto.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +206,9 @@
 				Base,
 			);
 			mainGroup = 7D1AA2C12C71581A009DA250;
+			packageReferences = (
+				7D8FF2F32C71C30900DD621F /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 7D1AA2CB2C71581A009DA250 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +235,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D1AA2D02C71581A009DA250 /* ContentView.swift in Sources */,
-				7D1AA2CE2C71581A009DA250 /* CryptoApp.swift in Sources */,
+				7D7936C12C74A95500CFB241 /* CoinRowView.swift in Sources */,
+				7D8FF2FE2C71D22000DD621F /* RealmCoinRepository.swift in Sources */,
+				7D1AA2D02C71581A009DA250 /* CriptoListView.swift in Sources */,
+				7D8FF2FB2C71D1C300DD621F /* CryptoAPIService.swift in Sources */,
+				7D1AA2CE2C71581A009DA250 /* MainApp.swift in Sources */,
+				7D8FF3012C71D33F00DD621F /* CoinUseCase.swift in Sources */,
+				7D8FF3052C71D39400DD621F /* CoinViewModel.swift in Sources */,
+				7D7936BE2C74A8B300CFB241 /* CoinRowViewModel.swift in Sources */,
+				7D8FF3082C71D5A800DD621F /* Coin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +449,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7D8FF2F32C71C30900DD621F /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.52.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7D8CBB832C73368A002B5732 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D8FF2F32C71C30900DD621F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		7D8CBB852C733BA7002B5732 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D8FF2F32C71C30900DD621F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		7D8CBB872C733C18002B5732 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D8FF2F32C71C30900DD621F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		7D8FF2F42C71C30900DD621F /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D8FF2F32C71C30900DD621F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7D1AA2C22C71581A009DA250 /* Project object */;
 }
